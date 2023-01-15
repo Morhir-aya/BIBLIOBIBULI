@@ -7,7 +7,7 @@ import Products from './components/pages/Products';
 import Categories from './components/pages/Categories';
 import User from './components/pages/User';
 import SignIn from './components/pages/SignIn';
-
+import Trailer from './components/pages/Trailer'
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
         <Route path='/categories' component={Categories} />
         <Route path='/user' component={User} />
         <Route path='/sign-in' component={SignIn} />
+        <Route path='/trailer' component={Trailer} />
       </Switch>
     </Router>
     </>

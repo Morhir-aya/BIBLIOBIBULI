@@ -1,14 +1,14 @@
 import React from 'react';
-import './Books.css';
-import BookItem from './BookItem';
+import './Cards.css';
+import BookItem from './CardItem';
 
-function Books() {
+function Cards() {
   return (
-    <div className='books'>
+    <div className='cards'>
       <h1>Check out these EPIC Recommendations</h1>
-      <div className='books__container'>
-        <div className='books__wrapper'>
-          <ul className='books__items'>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
             <BookItem
               src='images/11.jpg'
               text='34 Great Books to Read Right Now for Any Mood or Interest'
@@ -22,7 +22,7 @@ function Books() {
               path='#'
             />
           </ul>
-          <ul className='books__items'>
+          <ul className='cards__items'>
             <BookItem
               src='images/13.jpeg'
               text='100 best books that make good holiday reads for summer 2022'
@@ -48,4 +48,4 @@ function Books() {
   );
 }
 
-export default Books;
+export default Cards;

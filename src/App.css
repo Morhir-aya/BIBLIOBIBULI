@@ -53,3 +53,18 @@
   color: #fff;
   font-size: 100px;
 }
+
+.trailer {
+  background-image: url('../public/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.v-d-o{
+  width: 750px;
+  height: 444px;
+  margin: 0 24rem;
+}

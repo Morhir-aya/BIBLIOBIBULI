@@ -1,5 +1,5 @@
 import React from 'react';
-import Books from '../Books';
+import Cards from '../Cards';
 import Footer from '../Footer'
 import '../../App.css';
 import HeroSection from '../HeroSection';
@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
         <HeroSection />
-        <Books />
+        <Cards />
         <Footer />
         </>
     );
